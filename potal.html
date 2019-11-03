@@ -62,9 +62,21 @@
 </head>
 <body>
     <div class="top_manu">
-        <a href="https://www.suri.hs.kr">수리고등학교</a>  
+        <a href="https://talented.kaist.ac.kr:8443/">ip과제</a>  
         
-        
+        <input type="button" value="night" style=" background-color:gray"
+        onclick="
+        if(this.value==='night'){
+            document.querySelector('body').style.color='white';
+            document.querySelector('body').style.backgroundColor='rgb(31, 30, 30)';
+            this.value='day';
+        }
+        else{
+            document.querySelector('body').style.color='rgb(31, 30, 30)';
+            document.querySelector('body').style.backgroundColor='white';
+            this.value='night';
+        }
+        ">
     </div>
     <div class="logo">
         <center>
@@ -88,7 +100,7 @@
     <div class="sites">
             <div class="cl">
                 <div class="ele">
-                    <a href="웹/1.html" target="_blank"><img src="potal/a.png" onmouseover="this.src='potal/x-1.png'" 
+                    <a href="교육/index.html" target="_blank"><img src="potal/a.png" onmouseover="this.src='potal/x-1.png'" 
                         onmouseout="this.src='potal/a.png'"></a>
                 </div>
                 <div class="ele">
@@ -111,7 +123,7 @@
                             onmouseout="this.src='potal/e.png'"></a>
                     </div>
                     <div class="ele">
-                        <a href="웹/2.html"target="_blank">
+                        <a href="웹/1.html"target="_blank">
                             <img src="potal/f.png" onmouseover="this.src='potal/x-6.png'" 
                              onmouseout="this.src='potal/f.png'">
                         </a>
